@@ -1,8 +1,8 @@
 # ow-scoreboard-v2
 
 ![game-display.jpeg](src/assets/game-display.jpeg)
-<img width="912" alt="スクリーンショット 2024-05-18 午後11 45 07" src="https://github.com/Coordinate-Cat/ow-scoreboard-v2/assets/42393004/a8dfeb93-5311-4488-bc92-8374056d2bef">
 
+<img width="912" alt="スクリーンショット 2024-05-18 午後11 48 24" src="https://github.com/Coordinate-Cat/ow-scoreboard-v2/assets/42393004/5a05eda8-9cd6-4ab5-8c60-908913550fd7">
 
 ## What is it ?
 
