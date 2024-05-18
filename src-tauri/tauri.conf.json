@@ -31,6 +31,7 @@
       "csp": null
     },
     "bundle": {
+      "resources": ["src/assets/**"],
       "active": true,
       "targets": "all",
       "identifier": "com.ocat.ow-scoreboard-v2",
