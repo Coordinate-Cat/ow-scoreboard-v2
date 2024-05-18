@@ -37,7 +37,7 @@ export const ViewerRole = ({
           color: colorHex.CurrentRoleTextColor,
         }}
         className={`flex items-center bg-gray-300 px-2 text-6xl text-gray-800 ${
-          layout === "vertical" && "w-44 justify-start"
+          layout === "vertical" && "w-44 justify-center"
         }`}
       >
         {role === "tank" && (
