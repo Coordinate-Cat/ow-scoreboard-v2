@@ -40,63 +40,63 @@ export const ViewerRate = ({
       >
         <img
           id="bronze"
-          src="../src/assets/rate/Bronze.png"
+          src="./public/Bronze.png"
           alt="Bronze"
           height="48"
           className={`${rate === "bronze" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="silver"
-          src="../src/assets/rate/Silver.png"
+          src="./public/Silver.png"
           alt="Silver"
           height="48"
           className={`${rate === "silver" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="gold"
-          src="../src/assets/rate/Gold.png"
+          src="./public/Gold.png"
           alt="Gold"
           height="48"
           className={`${rate === "gold" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="platinum"
-          src="../src/assets/rate/Platinum.png"
+          src="./public/Platinum.png"
           alt="Platinum"
           height="48"
           className={`${rate === "platinum" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="diamond"
-          src="../src/assets/rate/Diamond.png"
+          src="./public/Diamond.png"
           alt="Diamond"
           height="48"
           className={`${rate === "diamond" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="masters"
-          src="../src/assets/rate/Masters.png"
+          src="./public/Masters.png"
           alt="Masters"
           height="48"
           className={`${rate === "masters" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="grandmaster"
-          src="../src/assets/rate/Grandmaster.png"
+          src="./public/Grandmaster.png"
           alt="Grandmaster"
           height="48"
           className={`${rate === "grandmaster" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="champion"
-          src="../src/assets/rate/Champion.png"
+          src="./public/Champion.png"
           alt="Champion"
           height="48"
           className={`${rate === "champion" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         <img
           id="top500"
-          src="../src/assets/rate/Top500.png"
+          src="./public/Top500.png"
           alt="Top500"
           height="48"
           className={`${rate === "top500" ? "flex" : "hidden"} mt-1 h-[48px]`}

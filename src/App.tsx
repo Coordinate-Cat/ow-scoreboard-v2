@@ -147,7 +147,7 @@ function App() {
           <div className="flex flex-col pb-8">
             <div className="flex w-full items-center justify-center">
               <img
-                src="../src/assets/Overwatch_circle_logo.svg"
+                src="./public/Overwatch_circle_logo.svg"
                 alt="Overwatch"
                 width={24}
               />

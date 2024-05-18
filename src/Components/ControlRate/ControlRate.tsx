@@ -20,11 +20,7 @@ export const ControlRate = ({
             />
             <label htmlFor="bronze-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img
-                  src="../src/assets/rate/Bronze.png"
-                  alt="Bronze"
-                  width="24"
-                />
+                <img src="./public/Bronze.png" alt="Bronze" width="24" />
               </div>
               Bronze
             </label>
@@ -41,11 +37,7 @@ export const ControlRate = ({
             />
             <label htmlFor="silver-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img
-                  src="../src/assets/rate/Silver.png"
-                  alt="Silver"
-                  width="24"
-                />
+                <img src="./public/Silver.png" alt="Silver" width="24" />
               </div>
               Silver
             </label>
@@ -62,7 +54,7 @@ export const ControlRate = ({
             />
             <label htmlFor="gold-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img src="../src/assets/rate/Gold.png" alt="Gold" width="24" />
+                <img src="./public/Gold.png" alt="Gold" width="24" />
               </div>
               Gold
             </label>
@@ -82,11 +74,7 @@ export const ControlRate = ({
             />
             <label htmlFor="platinum-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img
-                  src="../src/assets/rate/Platinum.png"
-                  alt="Platinum"
-                  width="24"
-                />
+                <img src="./public/Platinum.png" alt="Platinum" width="24" />
               </div>
               Platinum
             </label>
@@ -103,11 +91,7 @@ export const ControlRate = ({
             />
             <label htmlFor="diamond-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img
-                  src="../src/assets/rate/Diamond.png"
-                  alt="Diamond"
-                  width="24"
-                />
+                <img src="./public/Diamond.png" alt="Diamond" width="24" />
               </div>
               Diamond
             </label>
@@ -124,11 +108,7 @@ export const ControlRate = ({
             />
             <label htmlFor="masters-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img
-                  src="../src/assets/rate/Masters.png"
-                  alt="Masters"
-                  width="28"
-                />
+                <img src="./public/Masters.png" alt="Masters" width="28" />
               </div>
               Masters
             </label>
@@ -149,7 +129,7 @@ export const ControlRate = ({
             <label htmlFor="grandmaster-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
                 <img
-                  src="../src/assets/rate/Grandmaster.png"
+                  src="./public/Grandmaster.png"
                   alt="Grandmaster"
                   width="32"
                 />
@@ -169,11 +149,7 @@ export const ControlRate = ({
             />
             <label htmlFor="champion-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img
-                  src="../src/assets/rate/Champion.png"
-                  alt="Champion"
-                  width="32"
-                />
+                <img src="./public/Champion.png" alt="Champion" width="32" />
               </div>
               Champion
             </label>
@@ -190,11 +166,7 @@ export const ControlRate = ({
             />
             <label htmlFor="top500-btn" className="flex items-center">
               <div className="mb-1 mr-1 flex w-8 justify-center">
-                <img
-                  src="../src/assets/rate/Top500.png"
-                  alt="Top500"
-                  width="32"
-                />
+                <img src="./public/Top500.png" alt="Top500" width="32" />
               </div>
               Top500
             </label>
