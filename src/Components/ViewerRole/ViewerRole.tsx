@@ -1,4 +1,8 @@
-import { RoleIconDamage } from "../RoleIcons/RoleIcons";
+import {
+  RoleIconDamage,
+  RoleIconSupport,
+  RoleIconTank,
+} from "../RoleIcons/RoleIcons";
 
 export const ViewerRole = ({
   role,
@@ -36,25 +40,21 @@ export const ViewerRole = ({
           layout === "vertical" && "w-44 justify-center"
         }`}
       >
-        <img
-          id="tank"
-          src="./src/assets/role/tank.svg"
-          alt="Tank"
-          height="48"
-          className={`${role === "tank" ? "flex" : "hidden"} mt-1 h-[48px]`}
-        />
+        {role === "tank" && (
+          <div className="flex">
+            <RoleIconTank colorHex={colorHex} />
+          </div>
+        )}
         {role === "damage" && (
           <div className="flex">
             <RoleIconDamage colorHex={colorHex} />
           </div>
         )}
-        <img
-          id="support"
-          src="./src/assets/role/support.svg"
-          alt="Support"
-          height="48"
-          className={`${role === "support" ? "flex" : "hidden"} mt-1 h-[48px]`}
-        />
+        {role === "support" && (
+          <div className="flex">
+            <RoleIconSupport colorHex={colorHex} />
+          </div>
+        )}
         {layout === "vertical" && role === "tank" && (
           <div className="ml-2 mt-2 text-[42px]">tank</div>
         )}
