@@ -62,7 +62,7 @@ export const ViewerRole = ({
           <div className="ml-2 mt-2 text-6xl">dps</div>
         )}
         {layout === "vertical" && role === "support" && (
-          <div className="ml-2 mt-2 text-6xl">support</div>
+          <div className="ml-2 mt-2 text-6xl">sup</div>
         )}
       </div>
     </div>
