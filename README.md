@@ -14,6 +14,8 @@ JA: 大人気ゲーム、オーバーウォッチの現在のスコアを表示�
 
 ### Windows
 
+※ 旧[ow-scoreboard](https://github.com/Coordinate-Cat/ow-scoreboard)をすでにインストールしている方はアンインストールしてください。
+
 1. 下記ページから最新のリリースをダウンロードしてください。(例 `overwatch-scoreboard.exe`)
 
    - 最新リリースページ:
