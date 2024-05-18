@@ -25,8 +25,8 @@ export const ViewerRole = ({
           backgroundColor: colorHex.RoleTitleBgColor,
           color: colorHex.RoleTitleTextColor,
         }}
-        className={`flex items-center px-2 pt-3 text-6xl leading-none text-gray-800 ${
-          layout === "vertical" && "w-32"
+        className={`flex items-center px-2 pt-2 text-6xl leading-none ${
+          layout === "vertical" && "w-32 justify-center"
         }`}
       >
         Role
@@ -37,7 +37,7 @@ export const ViewerRole = ({
           color: colorHex.CurrentRoleTextColor,
         }}
         className={`flex items-center bg-gray-300 px-2 text-6xl text-gray-800 ${
-          layout === "vertical" && "w-44 justify-center"
+          layout === "vertical" && "w-44 justify-start"
         }`}
       >
         {role === "tank" && (
@@ -56,13 +56,13 @@ export const ViewerRole = ({
           </div>
         )}
         {layout === "vertical" && role === "tank" && (
-          <div className="ml-2 mt-2 text-[42px]">tank</div>
+          <div className="ml-2 mt-2 text-6xl">tank</div>
         )}
         {layout === "vertical" && role === "damage" && (
-          <div className="ml-2 mt-2 text-[42px]">dps</div>
+          <div className="ml-2 mt-2 text-6xl">dps</div>
         )}
         {layout === "vertical" && role === "support" && (
-          <div className="ml-2 mt-2 text-[42px]">support</div>
+          <div className="ml-2 mt-2 text-6xl">support</div>
         )}
       </div>
     </div>

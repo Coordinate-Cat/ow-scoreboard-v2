@@ -23,8 +23,8 @@ export const ViewerScore = ({
           backgroundColor: colorHex.ScoreTitleBgColor,
           color: colorHex.ScoreTitleTextColor,
         }}
-        className={`flex items-center px-2 pt-3 text-6xl leading-none ${
-          layout === "vertical" && "w-32"
+        className={`flex items-center px-2 pt-2 text-6xl leading-none ${
+          layout === "vertical" && "w-32 justify-center"
         }`}
       >
         Score
@@ -34,7 +34,7 @@ export const ViewerScore = ({
           backgroundColor: colorHex.CurrentScoreBgColor,
           color: colorHex.CurrentScoreTextColor,
         }}
-        className={`flex items-center px-2 pt-3 text-6xl ${
+        className={`flex items-center px-2 pt-2 text-6xl ${
           layout === "vertical" && "w-44 justify-center"
         }`}
       >

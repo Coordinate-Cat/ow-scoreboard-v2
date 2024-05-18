@@ -23,8 +23,8 @@ export const ViewerRate = ({
           backgroundColor: colorHex.RateTitleBgColor,
           color: colorHex.RateTitleTextColor,
         }}
-        className={`flex items-center px-2 pt-3 text-6xl leading-none ${
-          layout === "vertical" && "w-32"
+        className={`flex items-center px-2 pt-2 text-6xl leading-none ${
+          layout === "vertical" && "w-32 justify-center"
         }`}
       >
         Rate
@@ -102,11 +102,11 @@ export const ViewerRate = ({
           className={`${rate === "top500" ? "flex" : "hidden"} mt-1 h-[48px]`}
         />
         {rate === "top500" ? (
-          <p id="tier" className="pt-3 text-[42px]">
+          <p id="tier" className="mt-2 text-6xl">
             {tierTop500}
           </p>
         ) : (
-          <p id="tier" className="pl-3 pt-3">
+          <p id="tier" className="mt-2 pl-1 text-6xl">
             {tier}
           </p>
         )}
