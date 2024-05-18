@@ -146,11 +146,7 @@ function App() {
         <div className="m-0 flex w-full flex-col p-[20px] pt-2 text-[24px] text-[#2f2f2f]">
           <div className="flex flex-col pb-8">
             <div className="flex w-full items-center justify-center">
-              <img
-                src="./public/Overwatch_circle_logo.svg"
-                alt="Overwatch"
-                width={24}
-              />
+              <img src="Overwatch_circle_logo.svg" alt="Overwatch" width={24} />
             </div>
             <ControlScore
               win={win}
