@@ -18,9 +18,8 @@ JA: 大人気ゲーム、オーバーウォッチの現在のスコアを表示�
 
 1. 下記ページから最新のリリースをダウンロードしてください。(例 `overwatch-scoreboard.exe`)
 
-   - 最新リリースページ:
-     [https://github.com/Coordinate-Cat/ow-scoreboard/releases/tag/v0.0.0](https://github.com/Coordinate-Cat/ow-scoreboard-v2/releases/tag/v0.0.0)
-
+   - 最新リリース:
+     https://github.com/Coordinate-Cat/ow-scoreboard-v2/releases/tag/hotfix-v0.0.0-3
 2. ダウンロードしたファイルを解凍してください。
 3. `overwatch-scoreboard.exe` を実行してください。
 4. Windows によって PC が保護されましたと表示される場合は、「詳細情報」をクリックして実行してください。
