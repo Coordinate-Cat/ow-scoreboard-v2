@@ -1,4 +1,5 @@
 # ow-scoreboard-v2
+[![publish](https://github.com/Coordinate-Cat/ow-scoreboard-v2/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/Coordinate-Cat/ow-scoreboard-v2/actions/workflows/build.yaml)
 
 ![game-display.jpeg](src/assets/game-display.jpeg)
 
